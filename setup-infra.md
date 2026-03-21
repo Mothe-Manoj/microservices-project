@@ -74,7 +74,7 @@ eksctl utils associate-iam-oidc-provider \
 eksctl create nodegroup --cluster=EKS-1 \
                        --region=ap-south-1 \
                        --name=node2 \
-                       --node-type=t3.medium \
+                       --node-type=c7i-flex.large \
                        --nodes=3 \
                        --nodes-min=2 \
                        --nodes-max=4 \
